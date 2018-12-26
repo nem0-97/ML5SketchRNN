@@ -39,8 +39,8 @@ function setStroke(err,strok){
 
 function draw(){
   if(move!=null){
-    let x1=x+move.dx*.1;
-    let y1=y+move.dy*.1;
+    let x1=x+move.dx*.2;
+    let y1=y+move.dy*.2;
     if(down){//if the pen is down for this strok draw a line along its movement
       strokeWeight(2);
       line(x,y,x1,y1);
