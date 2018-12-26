@@ -1,0 +1,135 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- ml5.js -->
+  <script src="https://unpkg.com/ml5@0.1.3/dist/ml5.min.js"></script>
+  <!--p5.js-->
+  <script language="javascript" type="text/javascript" src="p5.min.js"></script>
+
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style> body {padding: 0; margin: 0;} </style>
+</head>
+
+<body>
+  <select id="model_selector" onChange='start()'>
+    <option value="flamingo">flamingo</option>
+    <option value="angel">angel</option>
+    <option value="octopus">octopus</option>
+    <option value="face">face</option>
+    <option value="garden">garden</option>
+    <option value="spider">spider</option>
+    <option value="mosquito">mosquito</option>
+    <option value="truck">truck</option>
+    <option value="windmill">windmill</option>
+    <option value="cruise_ship">cruise ship</option>
+    <option value="bird">bird</option>
+    <option value="cat">cat</option>
+    <option value="pineapple">pineapple</option>
+    <option value="butterfly">butterfly</option>
+    <option value="the_mona_lisa">the mona lisa</option>
+    <option value="bicycle">bicycle</option>
+    <option value="crab">crab</option>
+    <option value="pig">pig</option>
+    <option value="yoga">yoga</option>
+    <option value="basket">basket</option>
+    <option value="owl">owl</option>
+    <option value="skull">skull</option>
+    <option value="bridge">bridge</option>
+    <option value="sheep">sheep</option>
+    <option value="diving_board">diving board</option>
+    <option value="swan">swan</option>
+    <option value="tiger">tiger</option>
+    <option value="pool">pool</option>
+    <option value="rain">rain</option>
+    <option value="elephantpig">elephantpig</option>
+    <option value="toothpaste">toothpaste</option>
+    <option value="calendar">calendar</option>
+    <option value="sea_turtle">sea turtle</option>
+    <option value="scorpion">scorpion</option>
+    <option value="hedgehog">hedgehog</option>
+    <option value="postcard">postcard</option>
+    <option value="backpack">backpack</option>
+    <option value="snail">snail</option>
+    <option value="parrot">parrot</option>
+    <option value="speedboat">speedboat</option>
+    <option value="passport">passport</option>
+    <option value="pig">pig</option>
+    <option value="swing_set">swing set</option>
+    <option value="lion">lion</option>
+    <option value="duck">duck</option>
+    <option value="castle">castle</option>
+    <option value="paintbrush">paintbrush</option>
+    <option value="strawberry">strawberry</option>
+    <option value="snowflake">snowflake</option>
+    <option value="catbus">catbus</option>
+    <option value="floweryoga">floweryoga</option>
+    <option value="toothbrush">toothbrush</option>
+    <option value="hand">hand</option>
+    <option value="flower">flower</option>
+    <option value="stove">stove</option>
+    <option value="radio">radio</option>
+    <option value="catpig">catpig</option>
+    <option value="power_outlet">power outlet</option>
+    <option value="antyoga">antyoga</option>
+    <option value="cactus">cactus</option>
+    <option value="trombone">trombone</option>
+    <option value="bee">bee</option>
+    <option value="barn">barn</option>
+    <option value="palm_tree">palm tree</option>
+    <option value="chair">chair</option>
+    <option value="beeflower">beeflower</option>
+    <option value="firetruck">firetruck</option>
+    <option value="peas">peas</option>
+    <option value="bus">bus</option>
+    <option value="couch">couch</option>
+    <option value="ambulance">ambulance</option>
+    <option value="lighthouse">lighthouse</option>
+    <option value="ant">ant</option>
+    <option value="helicopter">helicopter</option>
+    <option value="rabbit">rabbit</option>
+    <option value="bulldozer">bulldozer</option>
+    <option value="radioface">radioface</option>
+    <option value="crabrabbitfacepig">crabrabbitfacepig</option>
+    <option value="rifle">rifle</option>
+    <option value="roller_coaster">roller coaster</option>
+    <option value="mermaid">mermaid</option>
+    <option value="fire_hydrant">fire hydrant</option>
+    <option value="crabchair">crabchair</option>
+    <option value="dogbunny">dogbunny</option>
+    <option value="frog">frog</option>
+    <option value="eye">eye</option>
+    <option value="brain">brain</option>
+    <option value="lantern">lantern</option>
+    <option value="frogsofa">frogsofa</option>
+    <option value="steak">steak</option>
+    <option value="monapassport">monapassport</option>
+    <option value="key">key</option>
+    <option value="dog">dog</option>
+    <option value="yogabicycle">yogabicycle</option>
+    <option value="fan">fan</option>
+    <option value="lionsheep">lionsheep</option>
+    <option value="rabbitturtle">rabbitturtle</option>
+    <option value="penguin">penguin</option>
+    <option value="monkey">monkey</option>
+    <option value="kangaroo">kangaroo</option>
+    <option value="alarm_clock">alarm clock</option>
+    <option value="sandwich">sandwich</option>
+    <option value="book">book</option>
+    <option value="hedgeberry">hedgeberry</option>
+    <option value="lobster">lobster</option>
+    <option value="dolphin">dolphin</option>
+    <option value="bear">bear</option>
+    <option value="elephant">elephant</option>
+    <option value="rhinoceros">rhinoceros</option>
+    <option value="tractor">tractor</option>
+    <option value="pigsheep">pigsheep</option>
+    <option value="whale">whale</option>
+    <option value="map">map</option>
+    <option value="squirrel">squirrel</option>
+    <option value="everything">everything</option>
+  </select>
+</body>
+
+</html>
